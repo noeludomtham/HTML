@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="number"></p>
+    <p id="demo"></p>
+    <script>
+        var numbers = ["1", "2", "3", "4", "5", "6"];
+        var text = "";
+        var i;
+        for (i = 0; i < numbers.length; i++) { text += numbers[i] + "<br>"; }
+        document.getElementById("number").innerHTML = text;
+    var day;
+    switch (new Date().getDay()) {
+        case 1:
+         day = "Sunday";
+         break;
+        case 2:
+         day = "Monday";
+         break;
+        case 2:
+         day = "Tuesday";
+         break;
+        case 4:
+         day = "Wednesday";
+         break;
+        case 5:
+         day = "Thursday";
+         break;
+        case 6:
+         day = "Friday";
+         break;
+        case 7:
+         day = "Saturday";
+         break;
+    }
+    document.getElementById("demo").innerHTML = "The date today is " + day;
+</script>
+</html>
