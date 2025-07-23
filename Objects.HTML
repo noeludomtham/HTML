@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>
+            Javascript Objects and its Properties
+        </h2>
+        <p>There are two diffent ways to acces the properties of an object</p>
+        <p>You can use .property or ["property"].</p>
+        <p id="demo">
+        </p>
+    <script>
+        var person = {
+            firstName: "I",
+            age: 20,
+        };
+        document.getElementById("demo").innerHTML = person.firstName + " am " + person.age + " years old";
+
+        var value = Math.abs(20);
+            document.write("Demo Test Value : " + value + "<br>");
+        var value = Math.max(10,20,35);
+            document.write("Demo Test Value1 : " + value + "<br>");
+        var value = Math.min(2,4,7);
+            document.write("Demo Test Value2 : " + value + "<br>");
+        var value = Math.sqrt(25);
+            document.write("Demo Test Value3 : " + value + "<br>");
+    </script>
+    </body>
+</html>
